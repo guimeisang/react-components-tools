@@ -35,7 +35,6 @@ export const AvatarCropper: React.FC = () => {
     <div>
       <div style={{ width: '100%' }}>
         <input type="file" onChange={onChange} />
-        <button>Use default img</button>
         <br />
         <br />
         <Cropper
