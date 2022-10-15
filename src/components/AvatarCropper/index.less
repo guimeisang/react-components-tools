@@ -1,8 +1,36 @@
-.box {
-  display: inline-block;
-  padding: 10px;
-  box-sizing: border-box;
-}
-.img-preview {
-  overflow: hidden;
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  .cropper-container {
+    width: 400px;
+    height: 400px;
+  }
+
+  .avatar-container-right {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    .box {
+      display: inline-block;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      margin-left: 20px;
+    }
+    .img-preview {
+      overflow: hidden;
+      width: 300px !important;
+      height: 300px !important;
+      margin-top: 10px;
+    }
+    .img-cropped {
+      overflow: hidden;
+      width: 300px;
+      margin-top: 10px;
+    }
+  }
 }

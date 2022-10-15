@@ -1,4 +1,9 @@
-# umi project
+# project
+
+
+## 已有组件
+
+- avatarCropper
 
 ## Getting Started
 
