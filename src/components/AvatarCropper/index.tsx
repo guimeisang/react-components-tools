@@ -46,7 +46,7 @@ export const AvatarCropper: React.FC = () => {
             minCropBoxHeight={10}
             minCropBoxWidth={10}
             background={false}
-            responsive={true}
+            responsive={true} // re-render the cropper when resizing the window
             autoCropArea={1}
             checkOrientation={false} // https://github.com/fengyuanchen/cropperjs/issues/671
             onInitialized={(instance) => {
